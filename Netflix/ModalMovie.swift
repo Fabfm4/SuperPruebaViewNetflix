@@ -8,6 +8,7 @@
 
 import UIKit
 import Font_Awesome_Swift
+import MaterialDesignSymbol
 
 class ModalMovie: UIViewController {
     
@@ -17,11 +18,6 @@ class ModalMovie: UIViewController {
     @IBOutlet weak var vmDirector: UIView!
     @IBOutlet weak var vmActionMovie: UIView!
     @IBOutlet weak var vmSimilar: UIView!
-//    @IBOutlet weak var vmDetails: UIView!
-//    @IBOutlet weak var btnOne: UIButton!
-//    @IBOutlet weak var btnTwo: UIButton!
-//    @IBOutlet weak var btnThree: UIButton!
-//    @IBOutlet weak var btnFour: UIButton!
     @IBOutlet weak var btnCloseModal: UIButton!
     @IBOutlet weak var scv: UIScrollView!
     @IBOutlet weak var cvMoviesSimilar: UICollectionView!
@@ -36,8 +32,10 @@ class ModalMovie: UIViewController {
         vmActionMovie.backgroundColor = UIColor.clear
         cvMoviesSimilar.backgroundColor = UIColor.clear
         vmDetails.backgroundColor = UIColor.clear
-//        btnOne.setFAIcon(icon: FAType.FAPlus, forState: .normal)
-        btnCloseModal.setFAIcon(icon: FAType.FAClose, iconSize: 25, forState: .normal)
+        btnCloseModal.titleLabel?.font = MaterialDesignFont.fontOfSize(20)
+        btnCloseModal.layer.masksToBounds = true
+        btnCloseModal.layer.cornerRadius = btnCloseModal.bounds.height/2
+        btnCloseModal.setTitle(MaterialDesignIcon.clear48px, for: .normal)
         scv.delegate = self
         cvMoviesSimilar.register(UINib(nibName: "cellCollection", bundle: nil), forCellWithReuseIdentifier: "collection")
         scv.contentSize = CGSize(width: self.view.bounds.width, height: (cvMoviesSimilar.frame.origin.y + cvMoviesSimilar.bounds.height))

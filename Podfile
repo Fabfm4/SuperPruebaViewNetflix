@@ -7,4 +7,5 @@ target 'Netflix' do
 
     pod 'KYDrawerController'
     pod 'Font-Awesome-Swift'
+    pod 'MaterialDesignSymbol', :git => 'https://github.com/tichise/MaterialDesignSymbol', :branch => 'swift3'
 end

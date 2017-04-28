@@ -329,10 +329,12 @@
                                     <constraint firstItem="KtD-dg-21t" firstAttribute="top" secondItem="Zm6-Z1-FeY" secondAttribute="bottom" id="xW1-CC-nZo"/>
                                 </constraints>
                             </scrollView>
-                            <button opaque="NO" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mP-Sd-MH1">
-                                <rect key="frame" x="329" y="28" width="30" height="30"/>
+                            <button opaque="NO" alpha="0.5" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mP-Sd-MH1">
+                                <rect key="frame" x="319" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.022485723350253783" green="0.013638921149579611" blue="0.019117368702281572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="bPD-yP-zcP"/>
+                                    <constraint firstAttribute="width" constant="40" id="bms-sM-Ee9"/>
+                                    <constraint firstAttribute="height" constant="40" id="oib-Xd-2ZY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
                                 <state key="normal" title="Button">
@@ -348,9 +350,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="D1D-ZC-PXa" secondAttribute="trailing" constant="-16" id="10A-jL-rYb"/>
                             <constraint firstItem="D1D-ZC-PXa" firstAttribute="top" secondItem="mve-wr-Tdh" secondAttribute="bottom" constant="-20" id="8MV-Ma-4S7"/>
                             <constraint firstItem="D1D-ZC-PXa" firstAttribute="height" secondItem="MMC-xO-4Qm" secondAttribute="height" id="AyI-UG-fSJ"/>
-                            <constraint firstItem="1mP-Sd-MH1" firstAttribute="trailing" secondItem="MMC-xO-4Qm" secondAttribute="trailingMargin" id="J1Q-Z2-UUn"/>
+                            <constraint firstItem="1mP-Sd-MH1" firstAttribute="trailing" secondItem="MMC-xO-4Qm" secondAttribute="trailingMargin" id="Hbd-mT-GIc"/>
+                            <constraint firstItem="1mP-Sd-MH1" firstAttribute="top" secondItem="mve-wr-Tdh" secondAttribute="bottom" id="MOg-QN-lTF"/>
                             <constraint firstItem="D1D-ZC-PXa" firstAttribute="width" secondItem="MMC-xO-4Qm" secondAttribute="width" id="ibY-mK-JTP"/>
-                            <constraint firstItem="1mP-Sd-MH1" firstAttribute="top" secondItem="mve-wr-Tdh" secondAttribute="bottom" constant="8" symbolic="YES" id="kxD-Th-Jne"/>
                             <constraint firstItem="D1D-ZC-PXa" firstAttribute="leading" secondItem="MMC-xO-4Qm" secondAttribute="leadingMargin" constant="-16" id="rGY-Q9-vVA"/>
                             <constraint firstItem="pL0-m9-CEu" firstAttribute="top" secondItem="D1D-ZC-PXa" secondAttribute="bottom" id="sOj-I9-4yL"/>
                         </constraints>
