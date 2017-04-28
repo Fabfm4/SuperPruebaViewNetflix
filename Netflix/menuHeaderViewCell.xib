@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuHeaderViewCell" rowHeight="54" id="gaK-2f-V8H" customClass="MenuHeaderViewCell" customModule="Netflix" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gaK-2f-V8H" id="DUo-rB-7RX">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbb-GO-ILV">
+                        <rect key="frame" x="8" y="8" width="38" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="oLM-nI-RpB"/>
+                            <constraint firstAttribute="width" constant="38" id="quy-Sa-CnL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ob-43-pzm">
+                        <rect key="frame" x="329" y="8" width="38" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="38" id="9w4-nH-Pg5"/>
+                            <constraint firstAttribute="height" constant="38" id="UFW-ox-xOW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioB-fc-BPf">
+                        <rect key="frame" x="54" y="17" width="267" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4Ob-43-pzm" secondAttribute="bottom" constant="7.5" id="BdB-RB-dZB"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ioB-fc-BPf" secondAttribute="bottom" constant="7.5" id="IYn-wl-usW"/>
+                    <constraint firstAttribute="trailing" secondItem="4Ob-43-pzm" secondAttribute="trailing" constant="8" id="Yev-F3-YnZ"/>
+                    <constraint firstItem="sbb-GO-ILV" firstAttribute="top" secondItem="DUo-rB-7RX" secondAttribute="top" constant="8" id="aQ1-gt-U16"/>
+                    <constraint firstItem="sbb-GO-ILV" firstAttribute="leading" secondItem="DUo-rB-7RX" secondAttribute="leading" constant="8" id="bDR-Yu-CAf"/>
+                    <constraint firstAttribute="bottom" secondItem="sbb-GO-ILV" secondAttribute="bottom" constant="7.5" id="dcN-5V-spH"/>
+                    <constraint firstItem="ioB-fc-BPf" firstAttribute="leading" secondItem="sbb-GO-ILV" secondAttribute="trailing" constant="8" id="f0X-k3-pix"/>
+                    <constraint firstItem="4Ob-43-pzm" firstAttribute="top" secondItem="DUo-rB-7RX" secondAttribute="top" constant="8" id="kWp-Ra-dmw"/>
+                    <constraint firstItem="4Ob-43-pzm" firstAttribute="leading" secondItem="ioB-fc-BPf" secondAttribute="trailing" constant="8" id="oAN-jK-jB8"/>
+                    <constraint firstItem="ioB-fc-BPf" firstAttribute="top" secondItem="DUo-rB-7RX" secondAttribute="topMargin" constant="9" id="pbs-gR-NnA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="lblArrow" destination="4Ob-43-pzm" id="fkH-hz-iAr"/>
+                <outlet property="lblIcon" destination="sbb-GO-ILV" id="1Zo-CB-cxk"/>
+                <outlet property="lblName" destination="ioB-fc-BPf" id="kIA-zN-n4K"/>
+            </connections>
+            <point key="canvasLocation" x="65.5" y="34"/>
+        </tableViewCell>
+    </objects>
+</document>

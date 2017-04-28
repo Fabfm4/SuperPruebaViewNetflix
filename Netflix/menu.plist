@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Notificaciones</string>
+		<key>image</key>
+		<string>notifications</string>
+		<key>view</key>
+		<string>menuHeaderViewCell</string>
+		<key>icon</key>
+		<string>FABell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mi lista</string>
+		<key>image</key>
+		<string>miLista</string>
+		<key>view</key>
+		<string>menuHeaderViewCell</string>
+		<key>icon</key>
+		<string>FACheck</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Inicio</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Disponibles para Descargar</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Originales de Netflix</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Programas de TV y series</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Acción y aventuras</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ciencia ficción y dantasía</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Comedias</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Deportes y salud física</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Documentales</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dramas</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Películas independientes</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Películas infantiles y familiares</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Películas internacionales</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Películas mexicanas</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Películas románticas</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Películas de terror</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Thrillers</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Descripción de audio</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Configuración de App</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Privacidad</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Llamar al Centro de ayuda</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cerrar Sesión</string>
+		<key>view</key>
+		<string>menuViewCell</string>
+	</dict>
+</array>
+</plist>

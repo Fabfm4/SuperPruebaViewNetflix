@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuViewCell" id="YTP-wq-OTx" customClass="MenuViewCell" customModule="Netflix" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YTP-wq-OTx" id="upQ-8m-gda">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDg-g0-UyK">
+                        <rect key="frame" x="0.0" y="0.0" width="11" height="51"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="11" id="Rac-U9-JWe"/>
+                            <constraint firstAttribute="height" constant="51" id="zrn-M5-qYr"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfB-QA-vIF">
+                        <rect key="frame" x="19" y="11" width="348" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="xIn-5A-ARX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yfB-QA-vIF" firstAttribute="top" secondItem="upQ-8m-gda" secondAttribute="topMargin" constant="3" id="8Sg-ox-IvR"/>
+                    <constraint firstAttribute="bottom" secondItem="jDg-g0-UyK" secondAttribute="bottom" constant="-1.5" id="Lr6-6y-NE3"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="yfB-QA-vIF" secondAttribute="bottom" constant="3.5" id="SsR-Uo-I4n"/>
+                    <constraint firstItem="jDg-g0-UyK" firstAttribute="leading" secondItem="upQ-8m-gda" secondAttribute="leading" id="WJ8-9T-3iw"/>
+                    <constraint firstItem="jDg-g0-UyK" firstAttribute="top" secondItem="upQ-8m-gda" secondAttribute="top" id="nqt-hR-g2O"/>
+                    <constraint firstItem="yfB-QA-vIF" firstAttribute="leading" secondItem="jDg-g0-UyK" secondAttribute="trailing" constant="8" id="qRD-ed-b2j"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="yfB-QA-vIF" secondAttribute="trailing" id="uiL-g5-MRz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="lblName" destination="yfB-QA-vIF" id="5l0-xn-Hh9"/>
+                <outlet property="vwIsActive" destination="jDg-g0-UyK" id="dhq-g8-5Ga"/>
+            </connections>
+            <point key="canvasLocation" x="108.5" y="125"/>
+        </tableViewCell>
+    </objects>
+</document>
