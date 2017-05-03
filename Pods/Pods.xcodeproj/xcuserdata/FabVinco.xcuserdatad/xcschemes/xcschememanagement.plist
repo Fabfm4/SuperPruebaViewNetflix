@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MaterialDesignSymbol.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Netflix.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B8A15128A26DF174018F5D885DC2E31F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BA453546C51032641C49CACBC22725EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB06C343D1B7D0B99939BDAD74F5A814</key>
+		<key>FA5D682AFADBAB6F40DC72F0CF7B7093</key>
 		<dict>
 			<key>primary</key>
 			<true/>

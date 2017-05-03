@@ -8,61 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		999A8D1DC8DC661432E38A2C /* Pods_Netflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BD37A5C1A306D8CA36C911 /* Pods_Netflix.framework */; };
-		E12C521E1EAEBD4D002ECB18 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C521D1EAEBD4D002ECB18 /* extensions.swift */; };
-		E12C52201EB0F938002ECB18 /* ModalMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C521F1EB0F938002ECB18 /* ModalMovie.swift */; };
-		E1629CE81EA90EC50031B269 /* CellOneType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1629CE71EA90EC50031B269 /* CellOneType.xib */; };
-		E1629CEB1EA90F9E0031B269 /* OneTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1629CEA1EA90F9E0031B269 /* OneTypeTableCell.swift */; };
-		E1629CED1EA9244B0031B269 /* CellTwoType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1629CEC1EA9244B0031B269 /* CellTwoType.xib */; };
-		E1AD34031EA92ADF00A0166B /* TwoTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD34021EA92ADF00A0166B /* TwoTypeTableCell.swift */; };
-		E1AD34051EA96E4300A0166B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD34041EA96E4200A0166B /* CollectionViewCell.swift */; };
-		E1AD34071EAA54E600A0166B /* cellCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD34061EAA54E600A0166B /* cellCollection.xib */; };
-		E1AD34091EAA739400A0166B /* CellThreeType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD34081EAA739400A0166B /* CellThreeType.xib */; };
-		E1AD340B1EAA77E000A0166B /* ThreeTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD340A1EAA77E000A0166B /* ThreeTypeTableCell.swift */; };
-		E1AD340D1EAA7C2500A0166B /* CellFourType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD340C1EAA7C2500A0166B /* CellFourType.xib */; };
-		E1AD340F1EAAA38E00A0166B /* CellFiveType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD340E1EAAA38E00A0166B /* CellFiveType.xib */; };
-		E1AD34111EAAA62E00A0166B /* FiveTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD34101EAAA62E00A0166B /* FiveTypeTableCell.swift */; };
-		E1AD34131EAAA78C00A0166B /* FourTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD34121EAAA78B00A0166B /* FourTypeTableCell.swift */; };
 		E1AD34151EAE540A00A0166B /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1AD34141EAE540A00A0166B /* menu.plist */; };
-		E1AD34171EAE624B00A0166B /* userViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD34161EAE624A00A0166B /* userViewCell.xib */; };
-		E1AD34191EAE648700A0166B /* menuHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD34181EAE648700A0166B /* menuHeaderViewCell.xib */; };
-		E1AD341B1EAE654900A0166B /* menuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AD341A1EAE654900A0166B /* menuViewCell.xib */; };
-		E1AD341D1EAE65C500A0166B /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD341C1EAE65C500A0166B /* UserViewCell.swift */; };
-		E1AD341F1EAE65E600A0166B /* MenuHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD341E1EAE65E600A0166B /* MenuHeaderViewCell.swift */; };
-		E1AD34211EAE65FF00A0166B /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD34201EAE65FF00A0166B /* MenuViewCell.swift */; };
-		E1AD34231EAE666700A0166B /* DrawerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD34221EAE666700A0166B /* DrawerMenu.swift */; };
 		E1BC3A6D1EA8FFC700EA476F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC3A6C1EA8FFC700EA476F /* AppDelegate.swift */; };
 		E1BC3A6F1EA8FFC700EA476F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC3A6E1EA8FFC700EA476F /* ViewController.swift */; };
 		E1BC3A721EA8FFC700EA476F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BC3A701EA8FFC700EA476F /* Main.storyboard */; };
 		E1BC3A741EA8FFC700EA476F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BC3A731EA8FFC700EA476F /* Assets.xcassets */; };
 		E1BC3A771EA8FFC700EA476F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BC3A751EA8FFC700EA476F /* LaunchScreen.storyboard */; };
+		E1C4B2D51EBA40A400C44114 /* cellCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2CC1EBA40A400C44114 /* cellCollection.xib */; };
+		E1C4B2D61EBA40A400C44114 /* CellFiveType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2CD1EBA40A400C44114 /* CellFiveType.xib */; };
+		E1C4B2D71EBA40A400C44114 /* CellFourType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2CE1EBA40A400C44114 /* CellFourType.xib */; };
+		E1C4B2D81EBA40A400C44114 /* CellOneType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2CF1EBA40A400C44114 /* CellOneType.xib */; };
+		E1C4B2D91EBA40A400C44114 /* CellThreeType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2D01EBA40A400C44114 /* CellThreeType.xib */; };
+		E1C4B2DA1EBA40A400C44114 /* CellTwoType.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2D11EBA40A400C44114 /* CellTwoType.xib */; };
+		E1C4B2DB1EBA40A400C44114 /* menuHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2D21EBA40A400C44114 /* menuHeaderViewCell.xib */; };
+		E1C4B2DC1EBA40A400C44114 /* menuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2D31EBA40A400C44114 /* menuViewCell.xib */; };
+		E1C4B2DD1EBA40A400C44114 /* userViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C4B2D41EBA40A400C44114 /* userViewCell.xib */; };
+		E1C4B2E31EBA416E00C44114 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2DF1EBA416E00C44114 /* CollectionViewCell.swift */; };
+		E1C4B2E41EBA416E00C44114 /* DrawerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2E01EBA416E00C44114 /* DrawerMenu.swift */; };
+		E1C4B2E51EBA416E00C44114 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2E11EBA416E00C44114 /* MainVC.swift */; };
+		E1C4B2E61EBA416E00C44114 /* ModalMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2E21EBA416E00C44114 /* ModalMovie.swift */; };
+		E1C4B2E91EBA418500C44114 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2E81EBA418500C44114 /* extensions.swift */; };
+		E1C4B2F31EBA419F00C44114 /* FiveTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2EB1EBA419F00C44114 /* FiveTypeTableCell.swift */; };
+		E1C4B2F41EBA419F00C44114 /* FourTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2EC1EBA419F00C44114 /* FourTypeTableCell.swift */; };
+		E1C4B2F51EBA419F00C44114 /* MenuHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2ED1EBA419F00C44114 /* MenuHeaderViewCell.swift */; };
+		E1C4B2F61EBA419F00C44114 /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2EE1EBA419F00C44114 /* MenuViewCell.swift */; };
+		E1C4B2F71EBA419F00C44114 /* OneTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2EF1EBA419F00C44114 /* OneTypeTableCell.swift */; };
+		E1C4B2F81EBA419F00C44114 /* ThreeTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2F01EBA419F00C44114 /* ThreeTypeTableCell.swift */; };
+		E1C4B2F91EBA419F00C44114 /* TwoTypeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2F11EBA419F00C44114 /* TwoTypeTableCell.swift */; };
+		E1C4B2FA1EBA419F00C44114 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B2F21EBA419F00C44114 /* UserViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71910BBC560EDCFFE8E85DA8 /* Pods-Netflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Netflix/Pods-Netflix.debug.xcconfig"; sourceTree = "<group>"; };
 		B38C96B303CD4D52C6285F0B /* Pods-Netflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Netflix/Pods-Netflix.release.xcconfig"; sourceTree = "<group>"; };
 		C5BD37A5C1A306D8CA36C911 /* Pods_Netflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E12C521D1EAEBD4D002ECB18 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
-		E12C521F1EB0F938002ECB18 /* ModalMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalMovie.swift; sourceTree = "<group>"; };
-		E1629CE71EA90EC50031B269 /* CellOneType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellOneType.xib; sourceTree = "<group>"; };
-		E1629CEA1EA90F9E0031B269 /* OneTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTypeTableCell.swift; sourceTree = "<group>"; };
-		E1629CEC1EA9244B0031B269 /* CellTwoType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTwoType.xib; sourceTree = "<group>"; };
-		E1AD34021EA92ADF00A0166B /* TwoTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTypeTableCell.swift; sourceTree = "<group>"; };
-		E1AD34041EA96E4200A0166B /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		E1AD34061EAA54E600A0166B /* cellCollection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellCollection.xib; sourceTree = "<group>"; };
-		E1AD34081EAA739400A0166B /* CellThreeType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellThreeType.xib; sourceTree = "<group>"; };
-		E1AD340A1EAA77E000A0166B /* ThreeTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeTypeTableCell.swift; sourceTree = "<group>"; };
-		E1AD340C1EAA7C2500A0166B /* CellFourType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFourType.xib; sourceTree = "<group>"; };
-		E1AD340E1EAAA38E00A0166B /* CellFiveType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFiveType.xib; sourceTree = "<group>"; };
-		E1AD34101EAAA62E00A0166B /* FiveTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveTypeTableCell.swift; sourceTree = "<group>"; };
-		E1AD34121EAAA78B00A0166B /* FourTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourTypeTableCell.swift; sourceTree = "<group>"; };
 		E1AD34141EAE540A00A0166B /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
-		E1AD34161EAE624A00A0166B /* userViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = userViewCell.xib; sourceTree = "<group>"; };
-		E1AD34181EAE648700A0166B /* menuHeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuHeaderViewCell.xib; sourceTree = "<group>"; };
-		E1AD341A1EAE654900A0166B /* menuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuViewCell.xib; sourceTree = "<group>"; };
-		E1AD341C1EAE65C500A0166B /* UserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
-		E1AD341E1EAE65E600A0166B /* MenuHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderViewCell.swift; sourceTree = "<group>"; };
-		E1AD34201EAE65FF00A0166B /* MenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
-		E1AD34221EAE666700A0166B /* DrawerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenu.swift; sourceTree = "<group>"; };
 		E1BC3A691EA8FFC700EA476F /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BC3A6C1EA8FFC700EA476F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1BC3A6E1EA8FFC700EA476F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +50,28 @@
 		E1BC3A731EA8FFC700EA476F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BC3A761EA8FFC700EA476F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1BC3A781EA8FFC700EA476F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C4B2CC1EBA40A400C44114 /* cellCollection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = cellCollection.xib; path = XIBs/cellCollection.xib; sourceTree = "<group>"; };
+		E1C4B2CD1EBA40A400C44114 /* CellFiveType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellFiveType.xib; path = XIBs/CellFiveType.xib; sourceTree = "<group>"; };
+		E1C4B2CE1EBA40A400C44114 /* CellFourType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellFourType.xib; path = XIBs/CellFourType.xib; sourceTree = "<group>"; };
+		E1C4B2CF1EBA40A400C44114 /* CellOneType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellOneType.xib; path = XIBs/CellOneType.xib; sourceTree = "<group>"; };
+		E1C4B2D01EBA40A400C44114 /* CellThreeType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellThreeType.xib; path = XIBs/CellThreeType.xib; sourceTree = "<group>"; };
+		E1C4B2D11EBA40A400C44114 /* CellTwoType.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellTwoType.xib; path = XIBs/CellTwoType.xib; sourceTree = "<group>"; };
+		E1C4B2D21EBA40A400C44114 /* menuHeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = menuHeaderViewCell.xib; path = XIBs/menuHeaderViewCell.xib; sourceTree = "<group>"; };
+		E1C4B2D31EBA40A400C44114 /* menuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = menuViewCell.xib; path = XIBs/menuViewCell.xib; sourceTree = "<group>"; };
+		E1C4B2D41EBA40A400C44114 /* userViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = userViewCell.xib; path = XIBs/userViewCell.xib; sourceTree = "<group>"; };
+		E1C4B2DF1EBA416E00C44114 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ViewControllers/CollectionViewCell.swift; sourceTree = "<group>"; };
+		E1C4B2E01EBA416E00C44114 /* DrawerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerMenu.swift; path = ViewControllers/DrawerMenu.swift; sourceTree = "<group>"; };
+		E1C4B2E11EBA416E00C44114 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = ViewControllers/MainVC.swift; sourceTree = "<group>"; };
+		E1C4B2E21EBA416E00C44114 /* ModalMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalMovie.swift; path = ViewControllers/ModalMovie.swift; sourceTree = "<group>"; };
+		E1C4B2E81EBA418500C44114 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = Extensions/extensions.swift; sourceTree = "<group>"; };
+		E1C4B2EB1EBA419F00C44114 /* FiveTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FiveTypeTableCell.swift; path = Cells/FiveTypeTableCell.swift; sourceTree = "<group>"; };
+		E1C4B2EC1EBA419F00C44114 /* FourTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourTypeTableCell.swift; path = Cells/FourTypeTableCell.swift; sourceTree = "<group>"; };
+		E1C4B2ED1EBA419F00C44114 /* MenuHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuHeaderViewCell.swift; path = Cells/MenuHeaderViewCell.swift; sourceTree = "<group>"; };
+		E1C4B2EE1EBA419F00C44114 /* MenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewCell.swift; path = Cells/MenuViewCell.swift; sourceTree = "<group>"; };
+		E1C4B2EF1EBA419F00C44114 /* OneTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneTypeTableCell.swift; path = Cells/OneTypeTableCell.swift; sourceTree = "<group>"; };
+		E1C4B2F01EBA419F00C44114 /* ThreeTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThreeTypeTableCell.swift; path = Cells/ThreeTypeTableCell.swift; sourceTree = "<group>"; };
+		E1C4B2F11EBA419F00C44114 /* TwoTypeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwoTypeTableCell.swift; path = Cells/TwoTypeTableCell.swift; sourceTree = "<group>"; };
+		E1C4B2F21EBA419F00C44114 /* UserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewCell.swift; path = Cells/UserViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,40 +103,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1629CE61EA90E8E0031B269 /* xibs */ = {
-			isa = PBXGroup;
-			children = (
-				E1629CE71EA90EC50031B269 /* CellOneType.xib */,
-				E1629CEC1EA9244B0031B269 /* CellTwoType.xib */,
-				E1AD34061EAA54E600A0166B /* cellCollection.xib */,
-				E1AD34081EAA739400A0166B /* CellThreeType.xib */,
-				E1AD340C1EAA7C2500A0166B /* CellFourType.xib */,
-				E1AD340E1EAAA38E00A0166B /* CellFiveType.xib */,
-				E1AD34161EAE624A00A0166B /* userViewCell.xib */,
-				E1AD34181EAE648700A0166B /* menuHeaderViewCell.xib */,
-				E1AD341A1EAE654900A0166B /* menuViewCell.xib */,
-			);
-			name = xibs;
-			sourceTree = "<group>";
-		};
-		E1629CE91EA90F6A0031B269 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E1629CEA1EA90F9E0031B269 /* OneTypeTableCell.swift */,
-				E1AD34021EA92ADF00A0166B /* TwoTypeTableCell.swift */,
-				E1AD34041EA96E4200A0166B /* CollectionViewCell.swift */,
-				E1AD340A1EAA77E000A0166B /* ThreeTypeTableCell.swift */,
-				E1AD34101EAAA62E00A0166B /* FiveTypeTableCell.swift */,
-				E1AD34121EAAA78B00A0166B /* FourTypeTableCell.swift */,
-				E1AD341C1EAE65C500A0166B /* UserViewCell.swift */,
-				E1AD341E1EAE65E600A0166B /* MenuHeaderViewCell.swift */,
-				E1AD34201EAE65FF00A0166B /* MenuViewCell.swift */,
-				E1AD34221EAE666700A0166B /* DrawerMenu.swift */,
-				E12C521F1EB0F938002ECB18 /* ModalMovie.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		E1BC3A601EA8FFC700EA476F = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +124,10 @@
 		E1BC3A6B1EA8FFC700EA476F /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
-				E1629CE91EA90F6A0031B269 /* Classes */,
-				E1629CE61EA90E8E0031B269 /* xibs */,
+				E1C4B2EA1EBA418D00C44114 /* Cells */,
+				E1C4B2E71EBA417C00C44114 /* Extensions */,
+				E1C4B2DE1EBA415600C44114 /* ViewControllers */,
+				E1C4B2CB1EBA408B00C44114 /* XIBs */,
 				E1BC3A6C1EA8FFC700EA476F /* AppDelegate.swift */,
 				E1BC3A6E1EA8FFC700EA476F /* ViewController.swift */,
 				E1BC3A701EA8FFC700EA476F /* Main.storyboard */,
@@ -165,9 +135,58 @@
 				E1BC3A751EA8FFC700EA476F /* LaunchScreen.storyboard */,
 				E1BC3A781EA8FFC700EA476F /* Info.plist */,
 				E1AD34141EAE540A00A0166B /* menu.plist */,
-				E12C521D1EAEBD4D002ECB18 /* extensions.swift */,
 			);
 			path = Netflix;
+			sourceTree = "<group>";
+		};
+		E1C4B2CB1EBA408B00C44114 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4B2CC1EBA40A400C44114 /* cellCollection.xib */,
+				E1C4B2CD1EBA40A400C44114 /* CellFiveType.xib */,
+				E1C4B2CE1EBA40A400C44114 /* CellFourType.xib */,
+				E1C4B2CF1EBA40A400C44114 /* CellOneType.xib */,
+				E1C4B2D01EBA40A400C44114 /* CellThreeType.xib */,
+				E1C4B2D11EBA40A400C44114 /* CellTwoType.xib */,
+				E1C4B2D21EBA40A400C44114 /* menuHeaderViewCell.xib */,
+				E1C4B2D31EBA40A400C44114 /* menuViewCell.xib */,
+				E1C4B2D41EBA40A400C44114 /* userViewCell.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		E1C4B2DE1EBA415600C44114 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4B2DF1EBA416E00C44114 /* CollectionViewCell.swift */,
+				E1C4B2E01EBA416E00C44114 /* DrawerMenu.swift */,
+				E1C4B2E11EBA416E00C44114 /* MainVC.swift */,
+				E1C4B2E21EBA416E00C44114 /* ModalMovie.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1C4B2E71EBA417C00C44114 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4B2E81EBA418500C44114 /* extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E1C4B2EA1EBA418D00C44114 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4B2EB1EBA419F00C44114 /* FiveTypeTableCell.swift */,
+				E1C4B2EC1EBA419F00C44114 /* FourTypeTableCell.swift */,
+				E1C4B2ED1EBA419F00C44114 /* MenuHeaderViewCell.swift */,
+				E1C4B2EE1EBA419F00C44114 /* MenuViewCell.swift */,
+				E1C4B2EF1EBA419F00C44114 /* OneTypeTableCell.swift */,
+				E1C4B2F01EBA419F00C44114 /* ThreeTypeTableCell.swift */,
+				E1C4B2F11EBA419F00C44114 /* TwoTypeTableCell.swift */,
+				E1C4B2F21EBA419F00C44114 /* UserViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,19 +252,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1629CE81EA90EC50031B269 /* CellOneType.xib in Resources */,
-				E1AD340F1EAAA38E00A0166B /* CellFiveType.xib in Resources */,
-				E1629CED1EA9244B0031B269 /* CellTwoType.xib in Resources */,
-				E1AD34091EAA739400A0166B /* CellThreeType.xib in Resources */,
+				E1C4B2D71EBA40A400C44114 /* CellFourType.xib in Resources */,
+				E1C4B2D51EBA40A400C44114 /* cellCollection.xib in Resources */,
+				E1C4B2DB1EBA40A400C44114 /* menuHeaderViewCell.xib in Resources */,
+				E1C4B2D61EBA40A400C44114 /* CellFiveType.xib in Resources */,
 				E1BC3A771EA8FFC700EA476F /* LaunchScreen.storyboard in Resources */,
+				E1C4B2DC1EBA40A400C44114 /* menuViewCell.xib in Resources */,
+				E1C4B2D81EBA40A400C44114 /* CellOneType.xib in Resources */,
 				E1AD34151EAE540A00A0166B /* menu.plist in Resources */,
-				E1AD34071EAA54E600A0166B /* cellCollection.xib in Resources */,
+				E1C4B2DA1EBA40A400C44114 /* CellTwoType.xib in Resources */,
+				E1C4B2D91EBA40A400C44114 /* CellThreeType.xib in Resources */,
+				E1C4B2DD1EBA40A400C44114 /* userViewCell.xib in Resources */,
 				E1BC3A741EA8FFC700EA476F /* Assets.xcassets in Resources */,
-				E1AD34191EAE648700A0166B /* menuHeaderViewCell.xib in Resources */,
-				E1AD34171EAE624B00A0166B /* userViewCell.xib in Resources */,
 				E1BC3A721EA8FFC700EA476F /* Main.storyboard in Resources */,
-				E1AD341B1EAE654900A0166B /* menuViewCell.xib in Resources */,
-				E1AD340D1EAA7C2500A0166B /* CellFourType.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,20 +323,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AD341F1EAE65E600A0166B /* MenuHeaderViewCell.swift in Sources */,
-				E1AD34131EAAA78C00A0166B /* FourTypeTableCell.swift in Sources */,
-				E1AD34051EA96E4300A0166B /* CollectionViewCell.swift in Sources */,
-				E1AD340B1EAA77E000A0166B /* ThreeTypeTableCell.swift in Sources */,
+				E1C4B2F51EBA419F00C44114 /* MenuHeaderViewCell.swift in Sources */,
 				E1BC3A6F1EA8FFC700EA476F /* ViewController.swift in Sources */,
-				E1AD34031EA92ADF00A0166B /* TwoTypeTableCell.swift in Sources */,
+				E1C4B2E61EBA416E00C44114 /* ModalMovie.swift in Sources */,
+				E1C4B2E51EBA416E00C44114 /* MainVC.swift in Sources */,
+				E1C4B2E91EBA418500C44114 /* extensions.swift in Sources */,
+				E1C4B2F71EBA419F00C44114 /* OneTypeTableCell.swift in Sources */,
+				E1C4B2FA1EBA419F00C44114 /* UserViewCell.swift in Sources */,
+				E1C4B2F41EBA419F00C44114 /* FourTypeTableCell.swift in Sources */,
+				E1C4B2E41EBA416E00C44114 /* DrawerMenu.swift in Sources */,
 				E1BC3A6D1EA8FFC700EA476F /* AppDelegate.swift in Sources */,
-				E12C521E1EAEBD4D002ECB18 /* extensions.swift in Sources */,
-				E12C52201EB0F938002ECB18 /* ModalMovie.swift in Sources */,
-				E1AD341D1EAE65C500A0166B /* UserViewCell.swift in Sources */,
-				E1629CEB1EA90F9E0031B269 /* OneTypeTableCell.swift in Sources */,
-				E1AD34231EAE666700A0166B /* DrawerMenu.swift in Sources */,
-				E1AD34111EAAA62E00A0166B /* FiveTypeTableCell.swift in Sources */,
-				E1AD34211EAE65FF00A0166B /* MenuViewCell.swift in Sources */,
+				E1C4B2F31EBA419F00C44114 /* FiveTypeTableCell.swift in Sources */,
+				E1C4B2E31EBA416E00C44114 /* CollectionViewCell.swift in Sources */,
+				E1C4B2F61EBA419F00C44114 /* MenuViewCell.swift in Sources */,
+				E1C4B2F81EBA419F00C44114 /* ThreeTypeTableCell.swift in Sources */,
+				E1C4B2F91EBA419F00C44114 /* TwoTypeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

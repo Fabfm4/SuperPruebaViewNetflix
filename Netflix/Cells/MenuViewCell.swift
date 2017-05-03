@@ -9,10 +9,12 @@
 import UIKit
 
 class MenuViewCell: UITableViewCell {
-
+    
+    //MARK: OUTLETS
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var vwIsActive: UIView!
     
+    //MARK: VIEW LIFECYCLE
     override func awakeFromNib() {
         super.awakeFromNib()
         self.backgroundColor = UIColor.clear
@@ -27,6 +29,7 @@ class MenuViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    //MARK: FUNCTIONS
     func setAttributes(name: String?, isActive: Bool?){
         if let nam = name {
             lblName.text = nam

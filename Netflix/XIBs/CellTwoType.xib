@@ -51,7 +51,7 @@
             </tableViewCellContentView>
             <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
-                <outlet property="collectionView" destination="gKN-I4-Q5W" id="V62-mO-sZn"/>
+                <outlet property="cvMovies" destination="gKN-I4-Q5W" id="6YF-j0-uDm"/>
             </connections>
             <point key="canvasLocation" x="-1975" y="-1384"/>
         </tableViewCell>

@@ -10,14 +10,16 @@ import UIKit
 
 class TwoTypeTableCell: UITableViewCell {
     
-    @IBOutlet weak var collectionView: UICollectionView!
-
+    //MARK: OUTLETS
+    @IBOutlet weak var cvMovies: UICollectionView!
+    
+    //MARK: VIEW LIFECYCLE
     override func awakeFromNib() {
         super.awakeFromNib()
-        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+        if let layout = cvMovies.collectionViewLayout as? UICollectionViewFlowLayout {
             layout.scrollDirection = .horizontal
         }
-        collectionView.register(UINib(nibName: "cellCollection", bundle: nil), forCellWithReuseIdentifier: "collection")
+        cvMovies.register(UINib(nibName: "cellCollection", bundle: nil), forCellWithReuseIdentifier: "collection")
         
         // Initialization code
     }

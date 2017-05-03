@@ -11,7 +11,6 @@ import Font_Awesome_Swift
 
 class UserViewCell: UITableViewCell {
     
-    @IBOutlet weak var imageProfile: UIImageView!
     @IBOutlet weak var lblIcon: UILabel!
     @IBOutlet weak var lblName: UILabel!
 
@@ -22,14 +21,14 @@ class UserViewCell: UITableViewCell {
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+        super.setSelected(selected, animated: animated) 
 
         // Configure the view for the selected state
     }
     
-    func setAttributes(name: String?, image: UIImage?){
-        if let nam = name {
-            lblName.text = nam
+    func setAttributes(name: String?){
+        if let aName = name {
+            lblName.text = aName
         }
     }
 

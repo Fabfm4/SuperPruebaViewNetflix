@@ -61,7 +61,6 @@
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="imageProfile" destination="Lkn-AS-hUw" id="gQS-5G-bR1"/>
                 <outlet property="lblIcon" destination="WSs-V8-Bf4" id="rUv-bS-7dz"/>
                 <outlet property="lblName" destination="o4k-eC-HVM" id="dAW-bE-ePr"/>
             </connections>

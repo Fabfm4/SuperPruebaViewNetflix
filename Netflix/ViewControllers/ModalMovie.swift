@@ -12,40 +12,17 @@ import MaterialDesignSymbol
 
 class ModalMovie: UIViewController {
     
-    @IBOutlet weak var vmResume: UIView!
+    //MARK: OUTLETS
     @IBOutlet weak var lblResume: UILabel!
-    @IBOutlet weak var vmCast: UIView!
-    @IBOutlet weak var vmDirector: UIView!
-    @IBOutlet weak var vmActionMovie: UIView!
-    @IBOutlet weak var vmSimilar: UIView!
+    @IBOutlet weak var vwSimilar: UIView!
     @IBOutlet weak var btnCloseModal: UIButton!
-    @IBOutlet weak var scv: UIScrollView!
+    @IBOutlet weak var svwMain: UIScrollView!
     @IBOutlet weak var cvMoviesSimilar: UICollectionView!
-    @IBOutlet weak var vmDetails: UIView!
-
+    
+    //MARK: VIEW LIFECYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
-        vmResume.backgroundColor = UIColor.clear
-        vmCast.backgroundColor = UIColor.clear
-        vmDirector.backgroundColor = UIColor.clear
-        vmSimilar.backgroundColor = UIColor.clear
-        vmActionMovie.backgroundColor = UIColor.clear
-        cvMoviesSimilar.backgroundColor = UIColor.clear
-        vmDetails.backgroundColor = UIColor.clear
-        btnCloseModal.titleLabel?.font = MaterialDesignFont.fontOfSize(20)
-        btnCloseModal.layer.masksToBounds = true
-        btnCloseModal.layer.cornerRadius = btnCloseModal.bounds.height/2
-        btnCloseModal.setTitle(MaterialDesignIcon.clear48px, for: .normal)
-        scv.delegate = self
-        cvMoviesSimilar.register(UINib(nibName: "cellCollection", bundle: nil), forCellWithReuseIdentifier: "collection")
-        scv.contentSize = CGSize(width: self.view.bounds.width, height: (cvMoviesSimilar.frame.origin.y + cvMoviesSimilar.bounds.height))
-//        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-//        layout.sectionInset = UIEdgeInsets(top: 10, left: 10 , bottom:10, right: 10)
-//        layout.minimumInteritemSpacing = 10
-//        layout.minimumLineSpacing = 100
-//        cvMoviesSimilar!.collectionViewLayout = layout
-        cvMoviesSimilar.dataSource = self
-        cvMoviesSimilar.delegate = self
+        configInit()
         // Do any additional setup after loading the view.
     }
 
@@ -57,7 +34,30 @@ class ModalMovie: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidDisappear(true)
+        svwMain.contentSize = CGSize(width: self.view.bounds.width, height: (vwSimilar.frame.origin.y + vwSimilar.bounds.height))
+    }
+    
+    //MARK: ACTIONS
     @IBAction func closeModal(_ sender: Any){
+        closeModal()
+    }
+
+    //MARK: FUNCTIONS
+    func configInit() {
+        btnCloseModal.titleLabel?.font = MaterialDesignFont.fontOfSize(20)
+        btnCloseModal.layer.masksToBounds = true
+        btnCloseModal.layer.cornerRadius = btnCloseModal.bounds.height/2
+        btnCloseModal.setTitle(MaterialDesignIcon.clear48px, for: .normal)
+        svwMain.delegate = self
+        cvMoviesSimilar.register(UINib(nibName: "cellCollection", bundle: nil), forCellWithReuseIdentifier: "collection")
+        svwMain.contentSize = CGSize(width: self.view.bounds.width, height: (cvMoviesSimilar.frame.origin.y + cvMoviesSimilar.bounds.height))
+        cvMoviesSimilar.dataSource = self
+        cvMoviesSimilar.delegate = self
+    }
+    
+    func closeModal() {
         let transition: CATransition = CATransition()
         transition.duration = 0.3
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
@@ -65,11 +65,6 @@ class ModalMovie: UIViewController {
         transition.subtype = kCATransitionFromBottom
         self.view.window!.layer.add(transition, forKey: nil)
         self.dismiss(animated: false, completion: nil)
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidDisappear(true)
-        scv.contentSize = CGSize(width: self.view.bounds.width, height: (vmSimilar.frame.origin.y + vmSimilar.bounds.height))
     }
     
 
@@ -85,34 +80,31 @@ class ModalMovie: UIViewController {
 
 }
 
+//MARCK: EXTENSIONS
 extension ModalMovie: UIScrollViewDelegate {
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
     }
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        
         let offsetY = scrollView.contentOffset.y
-        if offsetY <= -120 {
-            let transition: CATransition = CATransition()
-            transition.duration = 0.3
-            transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
-            transition.type = kCATransitionReveal
-            transition.subtype = kCATransitionFromBottom
-            self.view.window!.layer.add(transition, forKey: nil)
-            self.dismiss(animated: true, completion: nil)
-        }
-        if offsetY > -36 {
-            btnCloseModal.alpha = 1
-        }
-        if offsetY <= -36, offsetY >= -55 {
+        switch(offsetY){
+        case -500 ... -120:
+            closeModal()
+            break;
+        case -55 ... -36:
             let valueReal = (offsetY + 36) * 0.5
-            print(offsetY)
             var valueAlpha = (10 - abs(valueReal.truncatingRemainder(dividingBy: 10))) * 0.1
             valueAlpha = valueAlpha == 1 ? 0 : valueAlpha
             valueAlpha = abs(offsetY) == 36 ? 1 : valueAlpha
             btnCloseModal.alpha = valueAlpha
-        }
-        if offsetY < -55 {
+            break;
+        case -120 ... -56:
             btnCloseModal.alpha = 0
+            break;
+        case -35 ... 0:
+            btnCloseModal.alpha = 1
+            break;
+        default:
+            break;
         }
     }
 }

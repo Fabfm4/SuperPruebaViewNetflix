@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
         UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
         let navAppearance = UINavigationBar.appearance()
         navAppearance.backgroundColor = UIColor.clear

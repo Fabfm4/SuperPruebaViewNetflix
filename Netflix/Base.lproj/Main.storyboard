@@ -13,7 +13,7 @@
         <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Netflix" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="Netflix" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -59,13 +59,13 @@
                     </navigationItem>
                     <connections>
                         <outlet property="btnNav" destination="8qr-fh-sjv" id="oDx-Yb-9VV"/>
-                        <outlet property="tbMain" destination="r1G-kY-icH" id="0MJ-KW-gmX"/>
+                        <outlet property="tvMain" destination="r1G-kY-icH" id="7D2-tN-6No"/>
                         <segue destination="YZy-5Z-YL1" kind="presentation" identifier="openModal" id="IWm-oX-zq6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.39130434782609" y="122.28260869565219"/>
+            <point key="canvasLocation" x="-1148" y="1652"/>
         </scene>
         <!--Modal Movie-->
         <scene sceneID="Hj4-cK-15d">
@@ -132,7 +132,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="wm8-Cb-fdH" firstAttribute="top" secondItem="KtD-dg-21t" secondAttribute="top" constant="5" id="5vo-hL-GwF"/>
                                             <constraint firstItem="lD6-pr-zWf" firstAttribute="leading" secondItem="YmQ-bz-WSA" secondAttribute="trailing" constant="8" id="KGH-13-KtJ"/>
@@ -160,7 +159,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="new-E5-Q7W" firstAttribute="top" secondItem="fhf-jt-gE4" secondAttribute="top" constant="8" id="Gs0-Z6-dro"/>
                                             <constraint firstAttribute="trailing" secondItem="new-E5-Q7W" secondAttribute="trailing" constant="8" id="J2Q-PJ-fsn"/>
@@ -179,7 +177,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="HPD-SY-ZWN" secondAttribute="bottom" id="0Pd-hS-WmE"/>
                                             <constraint firstItem="HPD-SY-ZWN" firstAttribute="top" secondItem="gSg-aK-vLW" secondAttribute="top" id="6Sg-sB-iab"/>
@@ -198,7 +195,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="6t5-Uj-6lR" secondAttribute="bottom" constant="3" id="3aU-hH-gfO"/>
                                             <constraint firstItem="6t5-Uj-6lR" firstAttribute="leading" secondItem="vaw-Nc-y8a" secondAttribute="leading" constant="8" id="MVx-X6-uBy"/>
@@ -243,7 +239,6 @@
                                                 <state key="normal" title="Button"/>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="B1F-zu-b2I" firstAttribute="top" secondItem="tuH-PW-Cnb" secondAttribute="top" constant="8" id="BCr-9z-J7D"/>
                                             <constraint firstAttribute="height" constant="70" id="EDX-8p-OS7"/>
@@ -274,7 +269,6 @@
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMz-cR-uEu">
                                                 <rect key="frame" x="8" y="29" width="359" height="300"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="l6N-h8-OpZ">
                                                     <size key="itemSize" width="50" height="50"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -284,7 +278,6 @@
                                                 <cells/>
                                             </collectionView>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="XMz-cR-uEu" secondAttribute="trailing" constant="8" id="1gY-Gm-fBE"/>
                                             <constraint firstAttribute="trailing" secondItem="P20-pd-gN2" secondAttribute="trailing" constant="8" id="1sI-77-STM"/>
@@ -361,18 +354,13 @@
                         <outlet property="btnCloseModal" destination="1mP-Sd-MH1" id="Or9-yd-qkd"/>
                         <outlet property="cvMoviesSimilar" destination="XMz-cR-uEu" id="fcE-yI-HBa"/>
                         <outlet property="lblResume" destination="new-E5-Q7W" id="ZeL-Hq-4Xh"/>
-                        <outlet property="scv" destination="D1D-ZC-PXa" id="NFX-ZI-AUP"/>
-                        <outlet property="vmActionMovie" destination="tuH-PW-Cnb" id="d9e-kX-dqT"/>
-                        <outlet property="vmCast" destination="gSg-aK-vLW" id="aiW-79-I12"/>
-                        <outlet property="vmDetails" destination="KtD-dg-21t" id="TuI-R6-mkQ"/>
-                        <outlet property="vmDirector" destination="vaw-Nc-y8a" id="kZC-Jz-Vgb"/>
-                        <outlet property="vmResume" destination="fhf-jt-gE4" id="Qcl-ej-mpY"/>
-                        <outlet property="vmSimilar" destination="FTZ-eb-4s6" id="QjV-ow-JAJ"/>
+                        <outlet property="svwMain" destination="D1D-ZC-PXa" id="bvk-II-k6a"/>
+                        <outlet property="vwSimilar" destination="FTZ-eb-4s6" id="0l7-I7-eBt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gdz-Nd-O8V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1108" y="130.88455772113943"/>
+            <point key="canvasLocation" x="-1148" y="2355"/>
         </scene>
         <!--Drawer Controller-->
         <scene sceneID="Wzf-K1-hUO">
@@ -481,13 +469,13 @@
                     <connections>
                         <outlet property="lblSyncUp" destination="RqU-V9-x0a" id="Unw-Ng-U15"/>
                         <outlet property="lblUser" destination="kIB-YE-NoG" id="a3V-tf-ukA"/>
-                        <outlet property="tableMenu" destination="5dh-HP-fHK" id="OQG-z5-W7d"/>
-                        <outlet property="viewUser" destination="Vpr-rp-nqd" id="g6r-rR-d5h"/>
+                        <outlet property="tvMenu" destination="5dh-HP-fHK" id="gpe-ms-Mq9"/>
+                        <outlet property="vwUser" destination="Vpr-rp-nqd" id="jea-f0-9aL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBd-Wc-cbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1333.3333333333335" y="923.64130434782612"/>
+            <point key="canvasLocation" x="-2244" y="938"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1qd-GH-L39">
@@ -508,7 +496,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wy6-hH-hrr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823" y="241"/>
+            <point key="canvasLocation" x="-1148" y="938"/>
         </scene>
     </scenes>
     <resources>
